@@ -1,0 +1,3 @@
+734147384,Ajax,Holland,Amsterdam,Amsterdamskaja
+2029389384,Dynamo,Ukraine,Kyiv,Obolonskaja
+1058235127,staticHotel,Country,City,Street

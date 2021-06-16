@@ -1,0 +1,4 @@
+111,staticUser,12345,Spain,ADMIN
+417364868,admin,qwert,USA,ADMIN
+1022959423,userName_2,asdfg,Poland,USER
+605344413,userName_3,zxcvb,Ukraine,USER
