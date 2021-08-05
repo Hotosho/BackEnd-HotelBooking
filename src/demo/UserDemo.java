@@ -1,5 +1,6 @@
 package demo;
 
+import dao.UserDAO;
 import model.User;
 import model.UserType;
 import сontroller.UserController;
@@ -21,6 +22,7 @@ public class UserDemo {
         //userController.registerUser(user1);
         //userController.registerUser(user2);
         //userController.registerUser(user3);
+
 
 
 

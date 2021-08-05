@@ -5,8 +5,6 @@ import interfaces.UserInterface;
 import model.SessionUser;
 import model.User;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class UserService {
     UserInterface userInterface = new UserDAO();

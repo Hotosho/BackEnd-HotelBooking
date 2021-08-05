@@ -36,4 +36,13 @@ public class UserDAO extends MainDAO<User> implements UserInterface {
     public List<User> getUsers() throws Exception {
         return readToFile();
     }
+
+    public User findUserById(long id) throws Exception {
+        List<User> userList = readToFile();
+        for (User usr : userList) {
+            if (usr.getId() == id)
+                return usr;
+        }
+        throw new Exception("findUserById dont work");
+    }
 }

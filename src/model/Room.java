@@ -12,6 +12,7 @@ public class Room {
     private boolean petsAllowed;
     private LocalDate dateAvailableFrom;
     private Hotel hotel;
+    private long idHotel;
 
     public Room(long id, int numberOfGuests, double price, boolean breakfastIncluded, boolean petsAllowed, LocalDate dateAvailableFrom, Hotel hotel) {
         this.id = id;
@@ -21,6 +22,24 @@ public class Room {
         this.petsAllowed = petsAllowed;
         this.dateAvailableFrom = dateAvailableFrom;
         this.hotel = hotel;
+    }
+
+    public Room(long id, int numberOfGuests, double price, boolean breakfastIncluded, boolean petsAllowed, LocalDate dateAvailableFrom, long idHotel) {
+        this.id = id;
+        this.numberOfGuests = numberOfGuests;
+        this.price = price;
+        this.breakfastIncluded = breakfastIncluded;
+        this.petsAllowed = petsAllowed;
+        this.dateAvailableFrom = dateAvailableFrom;
+        this.idHotel = idHotel;
+    }
+
+    public long getIdHotel() {
+        return idHotel;
+    }
+
+    public void setIdHotel(long idHotel) {
+        this.idHotel = idHotel;
     }
 
     public long getId() {

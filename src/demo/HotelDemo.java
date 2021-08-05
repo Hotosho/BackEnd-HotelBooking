@@ -33,7 +33,8 @@ public class HotelDemo {
         //good work
         //hotelController.deleteHotel(hotel2);
 
+        //good work
         //HotelDAO hotelDAO = new HotelDAO();
-        //System.out.println(hotelDAO.findHotelById(1058235127));
+        //System.out.println(hotelDAO.findHotelById(108591326));
     }
 }

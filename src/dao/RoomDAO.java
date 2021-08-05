@@ -44,4 +44,13 @@ public class RoomDAO extends MainDAO<Room> implements RoomInterface {
     public Room deleteRoom(Room room) throws Exception {
         return deleteEntity(room);
     }
+
+    public Room findRoomById(long id) throws Exception {
+        List<Room> roomList = readToFile();
+        for (Room rom : roomList) {
+            if (rom.getId() == id)
+                return rom;
+        }
+        throw new Exception("findRoomById dont work");
+    }
 }

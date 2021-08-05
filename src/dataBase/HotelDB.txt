@@ -1,3 +1,3 @@
-734147384,Ajax,Holland,Amsterdam,Amsterdamskaja
-2029389384,Dynamo,Ukraine,Kyiv,Obolonskaja
-1058235127,staticHotel,Country,City,Street
+1387993388,Ajax,Holland,Amsterdam,Amsterdamskaja
+619149113,Slask,Poland,Wroclaw,Wroclawskaja
+108591326,Dynamo,Ukraine,Kyiv,Obolonskaja

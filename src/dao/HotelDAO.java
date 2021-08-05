@@ -51,6 +51,6 @@ public class HotelDAO extends MainDAO<Hotel> implements HotelInterface {
             if (hotel.getId() == id)
                 return hotel;
         }
-        throw new Exception("WTF WHY??? findHotelByID");
+        throw new Exception("findHotelById dont work");
     }
 }

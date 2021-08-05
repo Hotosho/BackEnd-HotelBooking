@@ -18,6 +18,8 @@ public class Hotel {
     }
 
 
+
+
     public long getId() {
         return id;
     }
@@ -41,7 +43,6 @@ public class Hotel {
     public String getStreet() {
         return street;
     }
-
 
     public void setName(String name) {
         this.name = name;
